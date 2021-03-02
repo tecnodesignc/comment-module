@@ -1,0 +1,17 @@
+{
+    "name": "Comments",
+    "alias": "comments",
+    "description": "",
+    "keywords": [],
+    "priority": 1,
+    "providers": [
+        "Modules\\Comments\\Providers\\CommentsServiceProvider",
+        "Modules\\Comments\\Providers\\EventServiceProvider",
+        "Modules\\Comments\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {
+        "Comments": "Modules\\Comments\\Facades\\CommentFacade"
+    },
+    "files": [],
+    "requires": []
+}
